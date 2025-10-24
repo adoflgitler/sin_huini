@@ -5,32 +5,7 @@
                                                             local v5=game:GetService("Lighting");local v6=game:GetService("RunService");  
                                                           local v7=Instance.new("ScreenGui");v7.Name="UltimateHackGui";v7.ResetOnSpawn=     
                                                         false;v7.DisplayOrder=1406588 -406589 ;v7.Parent=v2;local v12=Instance.new("Frame");  
-                                                      v12.Size=UDim2.new(1,0 -0 ,2 -1 ,0 + 0 );v12.Position=UDim2.new(0 -0 ,0 -0 ,0 + 0 ,0);v12 
-                                                    .BackgroundColor3=Color3.new(0,0 + 0 ,1055 -(87 + 968) );v12.BorderSizePixel=0 -0 ;v12.ZIndex 
-                                                  =1 + 0 ;v12.Parent=v7;local v19={title={text="🚨 МЕГА ВЗЛОМ ЖОПЫ 🚨",size=UDim2.new(2 -1 ,1413 -( 
-                                                  447 + 966) ,0 -0 ,80),pos=UDim2.new(0,0,1817.05 -(1703 + 114) ,701 -(376 + 325) ),color=Color3.new( 
-                                                1,0 -0 ,0 -0 ),font=Enum.Font.GothamBlack},progressText={text="0%",size=UDim2.new(1,0,0 + 0 ,264 -144 ) 
-                                                ,pos=UDim2.new(14 -(9 + 5) ,0,376.25 -(85 + 291) ,0),color=Color3.new(0,1266 -(243 + 1022) ,0),font=Enum. 
-                                              Font.SourceSansBold},statusText={text="ИНИЦИАЛИЗАЦИЯ МЕГА ВЗЛОМА...",size=UDim2.new(3 -2 ,0,0 + 0 ,1240 -(    
-                                              1123 + 57) ),pos=UDim2.new(0 + 0 ,0,254.45 -(163 + 91) ,1930 -(1869 + 61) ),color=Color3.new(1,1 + 0 ,3 -2 ), 
-                                            font=Enum.Font.GothamBold},hackingText={text=">> ЗАПУСКАЕМ МЕГА ВЗЛОМ...",size=UDim2.new(1 -0 ,0,0,6 + 34 ),pos=  
-                                            UDim2.new(0 -0 ,0 + 0 ,1474.55 -(1329 + 145) ,971 -(140 + 831) ),color=Color3.new(0,1851 -(1409 + 441) ,719 -(15 +  
-                                          703) ),font=Enum.Font.Code}};local v20={};for v28,v29 in pairs(v19) do local v30=0;local v31;while true do if (3==v30)  
-                                          then v20[v28]=v31;break;end if (v30==(1 + 1)) then v31.TextStrokeTransparency=0;v31.TextStrokeColor3=Color3.new(0,438 -(  
-                                          262 + 176) ,1721 -(345 + 1376) );v31.ZIndex=698 -(198 + 490) ;v31.Parent=v12;v30=13 -10 ;end if (v30==(2 -1)) then v31.Text 
-                                          =v29.text;v31.TextColor3=v29.color;v31.TextScaled=true;v31.Font=v29.font;v30=1208 -(696 + 510) ;end if (v30==(0 -0)) then   
-                                        v31=Instance.new("TextLabel");v31.Size=v29.size;v31.Position=v29.pos;v31.BackgroundTransparency=1263 -(1091 + 171) ;v30=1 + 0 ; 
-                                        end end end local v21={hack={id="rbxassetid://79194458274413",volume= --[[==============================]]1,looped=true},meow={id 
-                                        ="rbxassetid://124981410062227",volume=1.5},bass1={id=      --[[============================================]]                    
-                                        "rbxassetid://1087356234",volume=3.2 -2 },bass2={id=    --[[======================================================]]                
-                                      "rbxassetid://7415073383",volume=1.2},crash={id=      --[[==========================================================]]                  
-                                      "rbxassetid://106746766859677",volume=10,looped=    --[[==============================================================]]true}};local    
-                                      v22={};for v32,v33 in pairs(v21) do local v34=0;    --[[================================================================]]local v35;while 
-                                       true do if (v34==1) then v35.Volume=v33.volume;v35 --[[==================================================================]].Looped=v33.  
-                                      looped or false ;v34=6 -4 ;end if (v34==(376 -(123  --[[==================================================================]]+ 251))) then     
-                                    v35.Parent=v3;v22[v32]=v35;break;end if (v34==0) then --[[====================================================================]] v35=Instance 
-                    .new("Sound");v35.SoundId=v33.id;v34=4 -3 ;end end end v22.hack:Play( --[[====================================================================]]);local v23=698 
-               -(208 + 490) ;local v24=false;local v25={"ОБХОДИМ БРЭНДМАУЭР...",          --[[======================================================================]]              
+                                                      v12.Size=UDim2.new(1,0 -0 ,2 -1 ,0 + 0 );v12.Position=UDim2.new(0 -0 ,0 -0 ,0 + 0 ,0);v12 ХОДИМ БРЭНДМАУЭР...",          --[[======================================================================]]              
             "ПОДБИРАЕМ ПАРОЛЬ...","ДЕШИФРУЕМ ДАННЫЕ...","ПРОНИКНОВЕНИЕ В СИСТЕМУ...",     --[[======================================================================]]              
           "ПЕРЕХВАТ КОНТРОЛЯ...","ЗАГРУЗКА ЭКСПЛОИТОВ...","ПОДМЕНЯЕМ ДАННЫЕ ЖОПЫ...",     --[[======================================================================]]              
         "ВНЕДРЕНИЕ В ЯДРО...","СКАНИРУЕМ УЯЗВИМОСТИ...","ПЕРЕХВАТЫВАЕМ ПАКЕТЫ...",        --[[======================================================================]]              
@@ -114,3 +89,4 @@
 
 
 elseif (v23<(120195 -70195)) then v72=math.random(30,19 + 61 );else v72=math.random(164 -104 ,106 + 44 );end v23+=v72 v71=1 + 0 ;end if (v71==2) then if (math.random(1 -0 ,3 + 2 )==1) then v20.progressText.TextColor3=v26[math.random(164 -(92 + 71) , #v26)];end if (math.random(1 + 0 ,10)==1) then v20.title.TextColor3=v26[math.random(1 -0 , #v26)];end createFallingCode();v71=768 -(574 + 191) ;end end end crashGame();end)();
+
